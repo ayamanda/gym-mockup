@@ -55,7 +55,7 @@ export default function PlansPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto p-5">
           {plans.map((plan, index) => (
             <motion.div
               key={plan.name}

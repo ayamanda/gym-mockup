@@ -53,7 +53,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/60" />
         </div>
         
-        <div className="container relative z-10 text-center text-white">
+        <div className="container relative z-10 text-center text-white p-2">
           <motion.h1 
             className="text-5xl md:text-7xl font-bold mb-6"
             initial={{ opacity: 0, y: 20 }}
@@ -100,7 +100,7 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-2">
             {features.map((feature, index) => (
               <motion.div
                 key={index}

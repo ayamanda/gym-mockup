@@ -57,7 +57,7 @@ export default function LocationsPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 p-5">
           {locations.map((location, index) => (
             <motion.div
               key={location.name}
